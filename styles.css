@@ -15,9 +15,9 @@
     --border-color: rgba(0, 0, 0, 0.08);
     --border-glow: rgba(0, 212, 170, 0.25);
 
-    --text-primary: #1a1a2e;
-    --text-secondary: #555570;
-    --text-muted: #8888aa;
+    --text-primary: #0d1b3e;
+    --text-secondary: #2a3a5c;
+    --text-muted: #5a6a8a;
 
     --accent-teal: #00d4aa;
     --accent-blue: #4f8cff;
@@ -388,7 +388,7 @@ body {
 
 .btn-primary {
     background: var(--accent-gradient);
-    color: #0b0b14;
+    color: #ffffff;
 }
 
 .btn-primary:hover {
@@ -715,7 +715,7 @@ body {
 .data-table td {
     padding: 16px 20px;
     font-size: 0.9rem;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
     color: var(--text-secondary);
 }
 
@@ -784,7 +784,7 @@ body {
     display: flex;
     align-items: center;
     gap: 10px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 .comparison-list li i {
